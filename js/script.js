@@ -1,4 +1,4 @@
-document.getElementById("Calculate").addEventListener("click", () => {
+document.getElementById("Calculate").addEventListener("click", () => {// when this will click the function will work
   let height = parseFloat(document.getElementById("height").value);
   let weight = parseFloat(document.getElementById("weight").value);
   if (isNaN(height) || isNaN(weight) || height <= 0 || weight <= 0) {
