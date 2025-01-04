@@ -19,7 +19,7 @@ document.getElementById("Calculate").addEventListener("click", () => {// when th
   if (bmi < 18.5)
     document.getElementById("under").classList.add("active");
   // document.getElementById("under").style.color="green";
-  else if (bmi >= 18.5 && bmi <= 24.9)
+  else if (bmi >= 18.5 && bmi <= 24.9)//check for normal condition
     document.getElementById("normal").classList.add("active");
   else {
     document.getElementById("over").classList.add("active");
